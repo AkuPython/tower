@@ -1,6 +1,6 @@
 ---
 - name: create directory
-  hosts: ansible1
+  hosts: target1
   tasks:
   
     file:

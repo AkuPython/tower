@@ -1,6 +1,6 @@
 ---
 - name: create users
-  hosts: ansible1
+  hosts: target1
   tasks:
   - name: create user
     user:
